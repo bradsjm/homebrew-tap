@@ -6,9 +6,9 @@ class QemuManage < Formula
   sha256 "1646076c332b2f07641a517281cf1846a31faa4b5c1bc5478c99845a4f1bb3de"
   license "Apache-2.0"
 
-  depends_on "qemu"
   depends_on arch: :arm64
   depends_on macos: :ventura
+  depends_on "qemu"
 
   def install
     bin.install "qemu-manage"
