@@ -1,9 +1,9 @@
 class QemuManage < Formula
   desc "Single-binary CLI for managing headless AArch64 QEMU VMs on Apple Silicon"
   homepage "https://github.com/bradsjm/qemu-manage"
-  url "https://github.com/bradsjm/qemu-manage/releases/download/v0.6.0/qemu-manage_0.6.0_darwin_arm64.tar.gz"
-  version "0.6.0"
-  sha256 "89b9ae09bcf7e46a922c389839c96329af2daa7d65aa5a2de392a9dad77a9986"
+  url "https://github.com/bradsjm/qemu-manage/releases/download/v0.6.1/qemu-manage_0.6.1_darwin_arm64.tar.gz"
+  version "0.6.1"
+  sha256 "7cd1c2652247aafa359b3436aebbc0a605e34eca49b2c4a52c1ab70aad645159"
   license "Apache-2.0"
 
   depends_on arch: :arm64
